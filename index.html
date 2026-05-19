@@ -590,12 +590,12 @@
         </div>
       </div>
     </div>
-    <div class="contact-form">
-      <div class="form-field"><label class="form-label">Your name</label><input class="form-input" type="text" placeholder="Name"/></div>
-      <div class="form-field"><label class="form-label">Your email</label><input class="form-input" type="email" placeholder="email@example.com"/></div>
-      <div class="form-field"><label class="form-label">Message</label><textarea class="form-textarea" placeholder="Introduce yourself or describe the opportunity…"></textarea></div>
-      <button class="form-submit">Send message</button>
-    </div>
+    <form class="contact-form" action="https://formspree.io/f/meedeeav" method="POST">
+      <div class="form-field"><label class="form-label">Your name</label><input class="form-input" type="text" name="name" placeholder="Name"/></div>
+      <div class="form-field"><label class="form-label">Your email</label><input class="form-input" type="email" name="email" placeholder="email@example.com"/></div>
+      <div class="form-field"><label class="form-label">Message</label><textarea class="form-textarea" name="message" placeholder="Introduce yourself or describe the opportunity…"></textarea></div>
+      <button type="submit" class="form-submit">Send message</button>
+    </form>
   </div>
 </section>
 
